@@ -6,13 +6,17 @@
 \begin{document}
 %\layout
 
-\title{タイトル}
+\title{
+    主成分分析を用いた高精度なバックスキャッタ位相角推定の実現 \\
+    〜シミュレーションと実機実験〜 \\
+    中村研TERM最終発表
+}
+
+
 
 % 和文著者名
 \author{
-    著者その1 \thanks{所属その1}
-    \and
-    著者その2 \thanks{所属その2}
+    岩崎 友哉 \thanks{総合政策学部３年 Auto ID Lab所属}
 }
 
 % 和文概要
@@ -25,22 +29,13 @@
 
 \section{はじめに}
 
-引用例\cite{example}を書いてみた．
+バックスキャッタ通信は消費電力が非常に低く、RFIDシステムなどのバッテリレスな情報システムで活用される通信方式である。
+そうした情報システムにおける要素技術の一つにタグの位置推定\cite{1}が挙げられるが、高精度なタグの位置推定を実現するにはバックスキャッタ信号の位相角を正確に推定する必要がある。
 
 \section{背景}
 
-\subsection{hoge}
-小見出し付きの文章．
+\subsection{バックスキャッタ信号の数学的表現}
 
-\begin{enumerate}
-\item 番号付き箇条書き 
-\item 番号付き箇条書き
-\end{enumerate}
-
-\begin{itemize}
-\item 箇条書き
-\item 箇条書き
-\end{itemize}
 
 %---------------------------------------------
 
@@ -57,16 +52,18 @@
     \end{center}
 \end{figure}
  
-\subsection{fuga}
-fugafuga
-
 \section{関連研究}
+最小二乗推定量の説明
 
 \section{提案手法}
+PCA推定量の説明
 
 \section{評価}
+\subsection{シミュレーション}
+\subsection{実機実験}
 
 \section{考察}
+ノイズを含まない。
 
 \bibliographystyle{junsrt}
 \bibliography{resume}
